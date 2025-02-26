@@ -1,0 +1,100 @@
+.
+├── README.md
+├── __pycache__
+│   ├── audio.cpython-310.pyc
+│   ├── audio.cpython-313.pyc
+│   ├── hparams.cpython-310.pyc
+│   └── hparams.cpython-313.pyc
+├── audio.py
+├── checkpoints
+│   ├── README.md
+│   ├── face_sync.pth
+│   └── wav2lip_gan.pth
+├── color_syncnet_train.py
+├── evaluation
+│   ├── README.md
+│   ├── gen_videos_from_filelist.py
+│   ├── real_videos_inference.py
+│   ├── scores_LSE
+│   │   ├── SyncNetInstance_calc_scores.py
+│   │   ├── calculate_scores_LRS.py
+│   │   ├── calculate_scores_real_videos.py
+│   │   └── calculate_scores_real_videos.sh
+│   └── test_filelists
+│       ├── README.md
+│       ├── ReSyncED
+│       │   ├── random_pairs.txt
+│       │   └── tts_pairs.txt
+│       ├── lrs2.txt
+│       ├── lrs3.txt
+│       └── lrw.txt
+├── face_detection
+│   ├── README.md
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── __init__.cpython-313.pyc
+│   │   ├── api.cpython-310.pyc
+│   │   ├── api.cpython-313.pyc
+│   │   ├── models.cpython-310.pyc
+│   │   ├── models.cpython-313.pyc
+│   │   ├── utils.cpython-310.pyc
+│   │   └── utils.cpython-313.pyc
+│   ├── api.py
+│   ├── detection
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-310.pyc
+│   │   │   └── core.cpython-310.pyc
+│   │   ├── core.py
+│   │   └── sfd
+│   │       ├── __init__.py
+│   │       ├── __pycache__
+│   │       │   ├── __init__.cpython-310.pyc
+│   │       │   ├── bbox.cpython-310.pyc
+│   │       │   ├── detect.cpython-310.pyc
+│   │       │   ├── net_s3fd.cpython-310.pyc
+│   │       │   └── sfd_detector.cpython-310.pyc
+│   │       ├── bbox.py
+│   │       ├── detect.py
+│   │       ├── net_s3fd.py
+│   │       └── sfd_detector.py
+│   ├── models.py
+│   └── utils.py
+├── filelists
+│   └── README.md
+├── generate_audio.py
+├── hparams.py
+├── hq_wav2lip_train.py
+├── inference.py
+├── inputs
+│   ├── image.jpg
+│   └── input_audio.mp3
+├── models
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── __init__.cpython-313.pyc
+│   │   ├── conv.cpython-310.pyc
+│   │   ├── conv.cpython-313.pyc
+│   │   ├── syncnet.cpython-310.pyc
+│   │   ├── syncnet.cpython-313.pyc
+│   │   ├── wav2lip.cpython-310.pyc
+│   │   └── wav2lip.cpython-313.pyc
+│   ├── conv.py
+│   ├── syncnet.py
+│   └── wav2lip.py
+├── outputs
+│   └── result.mp4
+├── preprocess.py
+├── requirements.txt
+├── results
+│   └── README.md
+├── structure.txt
+├── temp
+│   ├── README.md
+│   ├── result.avi
+│   └── temp.wav
+└── wav2lip_train.py
+
+20 directories, 78 files
